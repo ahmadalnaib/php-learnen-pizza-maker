@@ -27,7 +27,7 @@ mysqli_close($conn);
 <div class="row">
 <?php foreach ($pizzas as $pizza) : ?>
   
-  <div class="col s6 md3">
+  <div class="col s12 ms6">
   <div class="card">
   <div class="card-content center">
   <h3> <?php echo htmlentities($pizza["title"]);?></h3>
